@@ -1,0 +1,16 @@
+<div class="custom-input">
+  <label [for]="id">{{ label }}</label>
+  <input 
+    [id]="id" 
+    [name]="name" 
+    [type]="type" 
+    [placeholder]="placeholder" 
+    [required]="required" 
+    [pattern]="pattern" 
+    [maxlength]="maxlength" 
+    [minlength]="minlength"
+    [disabled]="disabled"
+    [readonly]="readonly"
+    [(ngModel)]="ngModel"
+  />
+</div>
